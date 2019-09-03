@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Item from './components/Item';
 import Footer from './components/Footer';
-import characters from "./characters.json.js";
+import characters from "./characters.json";
 import './App.css';
 
 class App extends Component {
