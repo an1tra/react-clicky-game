@@ -1,19 +1,39 @@
 {
+  "homepage": "https://an1tra.github.io/react-clicky-game",
   "name": "react-clicky-game",
-  "version": "1.0.0",
-  "description": "A memory game built with React. Click on the characters displayed one at a time without repeating while the game randomly renders characters back on the page.",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "6.4.1",
+    "node": "10.15.3"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/an1tra/react-clicky-game.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/an1tra/react-clicky-game/issues"
-  },
-  "homepage": "https://github.com/an1tra/react-clicky-game#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
