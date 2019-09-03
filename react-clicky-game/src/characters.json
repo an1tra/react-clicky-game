@@ -1,0 +1,74 @@
+[
+    {
+      "id": 0,
+      "name": "Mad Scientist",
+      "image": "assets/images/MadScientist.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 1,
+      "name": "Nerd",
+      "image": "assets/images/Nerdsnotthecandy.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 2,
+      "name": "Gummy Bear",
+      "image": "assets/images/Pink_Robot_Chicken_gummy_bear.png",
+      "isClicked": false
+    },
+    {
+      "id": 3,
+      "name": "Munson",
+      "image": "assets/images/MunsonInfoBox.png",
+      "isClicked": false
+    },
+    {
+      "id": 4,
+      "name": "Aliens",
+      "image": "assets/images/Badunkadunk.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 5,
+      "name": "Unicorn",
+      "image": "assets/images/unicorn.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 6,
+      "name": "Little Drummer Boy",
+      "image": "assets/images/Drummer_Boy_RC.png",
+      "isClicked": false
+    },
+    {
+      "id": 7,
+      "name": "Composite Santa",
+      "image": "assets/images/Composite_Santa.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 8,
+      "name": "Doug Goldstein",
+      "image": "assets/images/Doug_as_a_toy.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 9,
+      "name": "Petroleum Pete",
+      "image": "assets/images/Ppete.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 10,
+      "name": "Robot",
+      "image": "assets/images/Robot.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 11,
+      "name": "Santa",
+      "image": "assets/images/Image.png",
+      "isClicked": false
+    }
+  ]
